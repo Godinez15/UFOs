@@ -1,0 +1,21 @@
+// Adding the background color
+body{
+    color:#f7f7f7;
+}
+
+// Creating the opening body tag
+
+
+// Assigning a new background
+// - .jumbotron tells the stylesheet to apply
+// the changes only to divs with a class of "jumbotron"
+//-  specify the image and where it's stored.
+//-  size set to span the entire width and height.
+//-  aligned the text to be in the center of the element
+.jumbotron {
+    background-images: url("../images/nasa.jpg");
+    background-size: 100% 100%;
+    text-align: center;
+}
+
+

@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" 
+      content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" 
+      content="ie=edge">
+  <title>Bellybutton Biodiversity</title>
+  <link rel="stylesheet" 
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+      integrity= "sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorgin="anonymous" />
+  <link rel= "stylesheet"
+      href="static/css/style.css"
+
+  </head>
+
+<body class= "bg-dark">
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 jumbotron text-center">
+        <h1>Belly Button Biodiversity Dashboard</h1>
+        <p>Use the interactive charts below to explore the dataset</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-2">
+        <div class="well">
+          <h5>Test Subject ID No.:</h5>
+          <!-- <select id="selDataset"></select> -->
+          <select id="selDataset" onchange="optionChanged(this.value)"></select>
+        </div>
+        <div class="panel panel-primary">
+          <div class="panel-heading">
+            <h3 class="panel-title">Demographic Info</h3>
+          </div>
+          <div id="sample-metadata" class="panel-body"></div>
+        </div>
+      </div>
+      <div class="col-md-5">
+        <div id="bar"></div>
+      </div>
+      <div class="col-md-5">
+        <div id="gauge"></div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12">
+        <div id="bubble"></div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.5.0/d3.js"></script>
+  <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+  <script src="plots.js"></script>
+
+</body>
+
+</html>
+// This code links a tag
+<link
+    rel="stylesheet"
+    href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+    crossorgin="anonymous"
+  />
+
+  // This links to the stylesheet 
+  <link rel="stylesheet" href="static/css/style.css">
+
+  // sets up the body of the html
+  <body>
+      <div class="wrapper">
+
+      </div>
+  </body>
+
+  // Creating the navbar
+  // We add the "navbar-brand" is a type
+  // of default styling that helps with the 
+  // site's aesthetics
+  <nav class="navbar navbar-dark bg-dark navbar-expand-lg">
+    <a class="navbar-brand" 
+      href="index.html">UFO Sightings</a>
+
+  </nav>
+
+  // Adds a jumbotron with a header
+  <div class="jumbotron">
+    <h1 class="display-4">The Truth Is Out There</h1>
+  </div>
+
+  <div class="container-fluid">
+    <div class="row">
+    </div>
+  </div>
+
+  // Adding the columns
+<div class="col-md-4">
+  // Creating an <h3/> tag
+  <h3>UFO Sightings: Fact or Fancy? <small>Ufologists Weigh In</small></h3>
+</div>
+<div class="col-md-8">
+  <p>
+    Are we alone in the universe? For millennia, humans have turned to the sky to answer this
+    question. Now, thanks to research generously funded by W. Avy, a UFO-enthusiast and amateur
+    ufologist, we can supplement our sky-searching with data analysis.<br><br>"The release of this
+    analysis is well-timed: It coincides with the celebration of World UFO Day, which is a moment
+    for ufologists around the world to connect, relax, and sample a range of UFO-themed snacks,"
+    said Dr. Ursula F. Olivier, the world's preeminent expert on circular sightings.
+    "Citizen-scientists can be especially helpful in both cataloguing sightings—which is hugely
+    helpful for us in our search for aliens—and in helping us celebrate the work that has already
+    been done, such as this data visualization project, which will help us raise awareness of the
+    ubiquity of sightings!"<br><br>Not everyone is ready to celebrate, however. Local CEO and vocal
+    anti-alien activist V. Isualize reached out to our reporters to go on record as firmly opposed
+    to any attempts to provide access to this data. "If there are aliens, they certainly would like
+    to be left alone," she stated, before directing us to the Leave Aliens Alone (LAA) community
+    engagement initiative she founded and funds.<br><br>So what do YOU think? Are we alone in the
+    universe? Are aliens trying to contact us, or do they want to be left alone? Dig through the
+    data yourself, and let us know what you see.
+  </p>
+</div>
+</div>
+
+
+
+// Final code for this section
+  <div class="container-fluid">
+  div class="row">
+  <div class="col-md-4">
+    <h3>UFO Sightings: Fact of Fancy? </h3>
+  </div>
+<div class="col-md-8"> 
+  <p>
+    are we alone in the universe? For millennia, humans have to the sky to answer this question. Now, thanks to research generously funded by W. Avy, a UFO-enthusiast and amateur ufologist, we can supplement our sky-searching with data analysis.<br><br>"The release of this analysis is well-timed: It coincides with the celebration of World UFO Day, which is a moment for ufologist around the world to connect, relax, and sample a range of UFO-themed snacks, " said Dr. Ursula F. Olivier, the world's preeminent expert on circular sightings. "Citizen-scientists can be especially helpful in both cataloguing sightings-which is hugely helpful for us in our search for aliens-and in helping us celebrate the work that has already been done, such as this data visualization project, which will help us raise awareness of the ubiquity of sightings!"<br><br>Not everyone is ready to celebrate, however. Local CEO and vocal anti-alien activist V. Isualize reached out to our reporters to go on record as firmly opposed to any attempts to provide access to this data. "If there are aliens, they certainly would like to be left alone," she stated, before directing us to the Leave Aliens Alone (LAA) community engagement initiative she founded and funds.<br><br>So what do YOU think? Are we alone in the universe? Are aliens trying to contact us, or do they want to be left alone? Dig through the data yourself, and let us know what you see.    
+  </p>
+</div>
+</div>
+</div>
+
+// Start of another container container-fluid
+<div class="container-fluid">
+<div class="col-md-3">
+  <form class="bg-dark"
+
+</div>
+<div class="col-md-9">
+
+</div>
+</div>
+</div>
+
+// Creating the first filter This is where we'll be accepting 
+// user input
+// first adds a form tag
+<form>
+  <p>Filter Search</p>
+  <ul class="list-group bg-dark">
+    <li class="list-group-item bg">
+      <label for="date">Enter Date</label>
+      <input type="text" 
+          placeholder="1/10/2010" 
+          id="datetime" />
+
+    </li>
+    <li class="list-group-item bg-dark">
+      <button id="filter-btn" 
+          type="button" 
+          class="btn btn-default">Filter Table</button>
+      </li>
+    </ul>
+</form>
+
+
+// Creating the un-ordered list
+<ul class="list-group">
+
+  </ul>
+
+// Creating the list items:for the input, button
+<li class="list-group-item">
+
+</li>
+
+<li class="list-group-item">
+
+</li>
+
+// Adding the label tags
+<label for "date">Enter Date</label>
+
+// Add the input
+//- type="text"=code will look for text to be input
+//- placeholder= example of date search;so users know both
+// the location and the format to use when inputting a date.
+//- id="datetime"= what our code will look for when the 
+// buttin is clicked and the function is executed.
+<input type="text" placeholder="1/10/2010" id="datetime" />
+
+//- Adds a button ; in the <li/> we'll add a
+// button tag with additional attributes
+<button id="filter-btn" type="button" class="btn btn-default">Filter Table</button>
+
+// Creating the nested tags
+// - More Bootstrap styling with "table table-striped"
+  // - <thead> will have more nested tags within it.
+  // - <tr> means that everything nested within it
+  // will be displayed as a row of data.
+
+  // Creating table headers
+  <div class="col-md-9">
+    <table class="table table-striped">
+      <thead>
+        <tr>
+          <th>Date</th>
+          <th>City</th>
+          <th>State</th>
+          <th>Shape</th>
+          <th>Duration</th>
+          <th>Comments</th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+  </div>
+  
+// - Creating the script tags
+// - Adding the link to D3.js allows the library to listlen on our code.
+// - We linked to data.js because the UFO sightings data needs to be loaded
+// it can be accessed.
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.11.0/d3.js"></script>
+<script src="static/js/data.js"></script>
+<script src="static/js/app.js"></script>
+
+// Creating the styling on the body
+<body class="bg-dark"></body>
+</body>
+
+</html>
